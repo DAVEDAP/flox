@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER fomin
+MAINTAINER dangerfish96
 
 ENV TZ=Europe/Minsk
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone

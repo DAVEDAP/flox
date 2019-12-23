@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER fomin
+MAINTAINER dangerfish96
 
 COPY run.sh /
 ENV TZ=Europe/Minsk
